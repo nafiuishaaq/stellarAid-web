@@ -8,6 +8,7 @@ import HowItWorks from "./components/HowItWorks";
 import Categories from "./components/Categories";
 import ForCreatorsAndDonors from "./components/ForCreatorsAndDonors";
 import Newsletter from "./components/Newsletter";
+import Testimonials from "./components/Testimonials";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -33,6 +34,7 @@ export default function HomePage() {
       <WhyChooseUs />
       <ForCreatorsAndDonors />
       <MakeAnImpact />
+      <Testimonials />
       <Newsletter />
       <Footer />
     </div>
