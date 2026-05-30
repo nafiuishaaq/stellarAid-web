@@ -9,6 +9,7 @@ import Categories from "./components/Categories";
 import ForCreatorsAndDonors from "./components/ForCreatorsAndDonors";
 import Newsletter from "./components/Newsletter";
 import Testimonials from "./components/Testimonials";
+import TrustStats from "./components/TrustStats";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -30,6 +31,7 @@ export default function HomePage() {
       <HeroPage />
       <FeaturedProjects />
       <HowItWorks />
+      <TrustStats />
       <Categories />
       <WhyChooseUs />
       <ForCreatorsAndDonors />
