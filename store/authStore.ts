@@ -68,6 +68,12 @@ export const useAuthStore = create<AuthStore>()(
           });
           setAuthCookie(token);
         },
+
+        setKycStatus: (kycStatus) => {
+          set((state) => ({
+            user: state.user ? { ...state.user, kycStatus } : null,
+          }));
+        },
       }),
       {
         name: 'auth-storage',
