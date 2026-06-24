@@ -9,6 +9,7 @@ import ProfileDropdown from './ProfileDropdown';
 import WalletDropdown from './WalletDropdown';
 import { WalletConnectModal } from './donations/WalletConnectModal';
 import { ThemeToggle } from './ThemeToggle';
+import NotificationsDropdown from './NotificationsDropdown';
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
