@@ -8,6 +8,8 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { StatCard } from "@/components/ui/StatCard";
 import { UpdateTimeline } from "@/components/creator/UpdateTimeline";
+import MilestoneRelease from "@/components/creator/MilestoneRelease";
+
 
 interface Campaign {
   id: string;
@@ -208,6 +210,8 @@ export default function CreatorDashboard() {
                   ))}
                 </div>
               </Card>
+
+              <MilestoneRelease />
 
               <Card variant="elevated" padding="lg">
                 <DonationTrendChart />
